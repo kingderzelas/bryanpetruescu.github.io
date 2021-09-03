@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+	<h1>Week 2: Testing your understanding</h1>
+    <p>A topic that I find interesting is the topic of <a href="https://discgolf.com/">disc golf</a> due to the <strong>complex</strong> nature
+		of the discs that can be presented, yet the <strong>simplicity</strong> of the game itself.
+		You can have dozens upon dozens of discs that will all behave differently when
+		you throw them, but also how you throw them. Yet, you can <strong>achieve so much</strong> if you
+		have at least a good throwing form.</p>
+	<a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MiBc9Weg3m0fkVPC8xhf6wHaEO%26pid%3DApi&f=1"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.q1ou9Z2G9t1aiC-UoCG2jwHaCM%26pid%3DApi&f=1"></a>
+  </body>
+</html>
