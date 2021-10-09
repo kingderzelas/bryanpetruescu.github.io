@@ -13,12 +13,15 @@
 				<textarea id="text" rows=4 cols=30></textarea>
 			</fieldset>
 		</form>
-		<fieldset id="FancifyText">
-			<label for="FancifyText">Fancify</label>
+		<fieldset id="fancy">
+			<label for="fancy">Fancify</label>
 			</br>
-			<button onclick=increaseFontSizeFromElementId id="text">Bigger!</button></br>
-			<input onchange=radioChanged() id="FancyShmancy" type="radio" name="text_decorate">FancyShmancy</input></br>
-			<input onchange=radioChanged() id="BoringBetty" type="radio" name="text_decorate">BoringBetty</input></br>
+			<button onclick=increaseFontSizeFromElementId id="text">Bigger!</button>
+			</br>
+			<input onchange=radioChanged() id="FancyShmancy" type="radio" name="text_decorate">FancyShmancy</input>
+			</br>
+			<input onchange=radioChanged() id="BoringBetty" type="radio" name="text_decorate">BoringBetty</input>
+			</br>
 			<button id="mooButton" onclick=mooClicked()>Moo</button>
 		</fieldset>
 	</body>
