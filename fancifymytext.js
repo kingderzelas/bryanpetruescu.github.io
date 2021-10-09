@@ -1,1 +1,4 @@
-alert("Hello, world!");
+function alertButton(id){
+	alert("Hello, world!");
+}
+
