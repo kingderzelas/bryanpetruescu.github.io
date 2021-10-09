@@ -7,5 +7,7 @@ function radioSelected(id) {
         alert("FancyShmancy");
     } else if (id === "BoringBetty") {
         alert("BoringBetty");
+    } else {
+        alert("Neither");
     }
 }
