@@ -4,7 +4,7 @@ function biggerButton() {
 
 function radioSelected(id) {
     if (id === "FancyShmancy") {
-        document.getElementById("FancyShmancy").style.fontWeight = "bold";
+        document.getElementById("text").style.fontWeight = "bold";
     } else if (id === "BoringBetty") {
         alert("BoringBetty");
     } else {
