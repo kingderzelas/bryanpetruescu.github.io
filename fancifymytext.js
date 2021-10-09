@@ -1,4 +1,4 @@
 function alertButton(id){
-	document.getElementById(id).style.fontSize = "24em";
+	document.getElementById(id).text.style.fontSize = "24em";
 }
 
