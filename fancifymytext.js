@@ -1,4 +1,4 @@
 function alertButton(id){
-	alert("Hello, world!");
+	document.getElementById(id).style.fontSize = "24pt";
 }
 
