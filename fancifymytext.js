@@ -4,10 +4,10 @@ function biggerButton() {
 
 function radioSelected(id) {
     if (id === "FancyShmancy") {
-        alert("FancyShmancy");
+        document.getElementById("FancyShmancy").style.fontWeight = "bold";
     } else if (id === "BoringBetty") {
         alert("BoringBetty");
     } else {
-        alert("Neither");
+        alert("Error: Invalid Selection");
     }
 }
