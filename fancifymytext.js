@@ -3,9 +3,9 @@ function biggerButton() {
 }
 
 function radioSelected(id) {
-    if (id == "FancyShmancy") {
+    if (id === "FancyShmancy") {
         alert("FancyShmancy");
-    } else if (id == "BoringBetty") {
+    } else if (id === "BoringBetty") {
         alert("BoringBetty");
     }
 }
