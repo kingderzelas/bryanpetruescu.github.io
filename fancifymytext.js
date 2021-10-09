@@ -2,6 +2,10 @@ function biggerButton() {
 	document.getElementById("text").style.fontSize = "24pt";
 }
 
-function radioSelected() {
-    alert("Radio Selected");
+function radioSelected(id) {
+    if (id == "FancyShmancy") {
+        alert("FancyShmancy");
+    } else if (id == "BoringBetty") {
+        alert("BoringBetty");
+    }
 }
