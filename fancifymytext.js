@@ -6,7 +6,7 @@ function radioSelected(id) {
     if (id === "FancyShmancy") {
         document.getElementById("text").style.fontWeight = "bold";
     } else if (id === "BoringBetty") {
-        document.getElementById("text").style.fontWeight = null;
+        document.getElementById("text").style.fontWeight = "normal";
     } else {
         alert("Error: Invalid Selection");
     }
