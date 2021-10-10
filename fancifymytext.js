@@ -17,7 +17,7 @@ function radioSelected(id) {
 }
 
 function mooButton() {
-    document.getElementById("text").value.toUpperCase();
-    //var uppperString = document.getElementById('textAreaID').value.toUpperCase();
-    //document.getElementById('textAreaID').value = upperString;
+    //document.getElementById("text").value.toUpperCase();
+    var upperString = document.getElementById('text').value.toUpperCase();
+    document.getElementById('text').value = upperString;
 }
