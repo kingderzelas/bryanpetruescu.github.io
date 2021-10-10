@@ -21,5 +21,5 @@ function mooButton() {
     document.getElementById("text").value = upperString;
 
     var upperSplit = upperString.split(".");
-    document.getElementById("text").value = upperSplit.join("- Moo");
+    document.getElementById("text").value = upperSplit.join(" -Moo");
 }
