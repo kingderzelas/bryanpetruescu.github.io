@@ -15,3 +15,9 @@ function radioSelected(id) {
         alert("Error: Invalid Selection");
     }
 }
+
+function mooButton() {
+    document.getElementById("text").value.toUpperCase();
+    //var uppperString = document.getElementById('textAreaID').value.toUpperCase();
+    //document.getElementById('textAreaID').value = upperString;
+}
