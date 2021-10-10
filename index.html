@@ -8,14 +8,19 @@
 		<form>
 			<fieldset>
 				<label>Text</label>
+				</br>
 				<textarea id="text" rows=4 cols=30>This is some sample text to demonstrate the "Bigger!" button.</textarea>
 			</fieldset>
 		</form>
 		<fieldset id="fancy">
 			<label>Fancify</label>
+			</br>
 			<button onclick=biggerButton(this.id) id="text">Bigger!</button>
+			</br>
 			<input onchange=radioSelected(this.id) id="FancyShmancy" type="radio" name="text_decorate">FancyShmancy</input>
+			</br>
 			<input onchange=radioSelected(this.id) id="BoringBetty" type="radio" name="text_decorate">BoringBetty</input>
+			</br>
 			<button id="mooButton" onclick=mooClicked()>Moo</button>
 		</fieldset>
 	</body>
